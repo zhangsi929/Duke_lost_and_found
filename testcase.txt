@@ -1,0 +1,69 @@
+admin page:
+http://colab-sbx-pvt-10.oit.duke.edu:8000/admin/
+
+POST login:
+http://colab-sbx-pvt-10.oit.duke.edu:8000/accounts/login
+{
+	"username": "chenqi123",
+	"password": "123123"
+}
+
+POST logout:
+http://colab-sbx-pvt-10.oit.duke.edu:8000/accounts/logout
+
+POST signup:
+http://colab-sbx-pvt-10.oit.duke.edu:8000/accounts/signup
+{
+	"name":"chenqi",
+	"username": "chenqi123",
+	"password": "123123",
+	"email": "chenqi.zhao@duke.edu",
+	"phone": 123123123
+}
+
+POST to lost:(login require):
+http://colab-sbx-pvt-10.oit.duke.edu:8000/app/lost
+{
+	"item_name":"newtest",
+	"lost_time": "2017-03-03T13:15:30Z",
+	"lost_location": "Hudson Building",
+	"lost_desc": "This is a black iphone7 with black protector case"
+}
+
+POST to found:(login require):
+http://colab-sbx-pvt-10.oit.duke.edu:8000/app/found
+{
+	"item_name":"test1111",
+	"found_time": "2017-03-03T13:15:30Z",
+	"found_location": "Hudson Building",
+	"found_desc": "It's a found item"
+}
+
+http://colab-sbx-pvt-10.oit.duke.edu:8000/app/query/?name=&category=&found=true&lost=true&description=&location=
+
+
+
+GET match
+http://colab-sbx-pvt-10.oit.duke.edu:8000/app/match/?username=chenqi123
+
+POST profile edit
+http://colab-sbx-pvt-10.oit.duke.edu:8000/app/profile/update
+//contian the feild you want to update, please make sure all fileds are avlid(password.len > 6, valid email…)
+{
+	"username":"chenqi123",
+	"email": "test@test.com",
+	"password": "hahaha"
+}
+
+GET get all reported items
+http://colab-sbx-pvt-10.oit.duke.edu:8000/app/reported/?username=chenqi123
+
+0.others
+1.pet
+2.clothing
+3.books
+4.electronics
+
+
+
+

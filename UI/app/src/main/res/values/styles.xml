@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name = "editText_style">
+    <item name = "android:background">@drawable/edittext_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name = "button_style">
+        <item name = "android:background">@drawable/submitbutton</item>
+        <item name = "android:textColor">#FDFDFE</item>
+    </style>
+    <style name = "buttonblue_style">
+        <item name = "android:background">@drawable/login_bg</item>
+    </style>
+    <style name = "buttonred_style">
+        <item name = "android:background">@drawable/register_bg</item>
+    </style>
+    <style name = "buttonpurple_style">
+        <item name = "android:background">@drawable/newbutton</item>
+        <item name = "android:textColor">#FDFDFE</item>
+    </style>
+
+    <style name = "buttonyellow_style">
+        <item name = "android:background">@drawable/yellowbutton</item>
+        <item name = "android:textColor">#363c47</item>
+    </style>
+</resources>

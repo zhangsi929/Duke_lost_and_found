@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">F4_UI_1</string>
+    <string-array name="category">
+        <item>Category</item>
+        <item>Pet</item>
+        <item>Clothing</item>
+        <item>Books</item>
+        <item>Electronics</item>
+        <item>Daily Necessities</item>
+        <item>Other</item>
+        <item>All</item>
+    </string-array>
+</resources>
+
